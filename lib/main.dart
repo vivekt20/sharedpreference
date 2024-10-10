@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shared_prefex_example/storing_int.dart';
+import 'package:shared_prefex_example/storing_list.dart';
 import 'package:shared_prefex_example/storing_name.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SharedPrefCounter(),
+      home: StringListExample(),
     );
   }
 }
